@@ -2,5 +2,5 @@
 
 ## Sistema de Crud de Pessoas
 
-### Customize configuration
+### Deploy
 Acesse [aqui](https://willvitorino.github.io/crud-pessoa/).
