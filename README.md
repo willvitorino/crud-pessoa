@@ -3,4 +3,4 @@
 ## Sistema de Crud de Pessoas
 
 ### Customize configuration
-[Acesse em](https://cli.vuejs.org/config/).
+Acesse [aqui](https://willvitorino.github.io/crud-pessoa/).
