@@ -90,16 +90,30 @@ export default {
       )
     },
     handleSave () {
-      this.$db.collection('pessoas').add({ ...this.state }).then(
-        () => {
-          this.$message({
-            title: 'Success',
-            message: 'Salvo com sucesso!',
-            type: 'success'
-          })
-          this.handleCancel()
-        }
-      )
+      const { id } = this.$route.params
+      if (id) {
+        this.$db.collection('pessoas').doc(this.state.id).set({ ...this.state }).then(
+          () => {
+            this.$message({
+              title: 'Success',
+              message: 'Salvo com sucesso!',
+              type: 'success'
+            })
+            this.handleCancel()
+          }
+        )
+      } else {
+        this.$db.collection('pessoas').add({ ...this.state }).then(
+          () => {
+            this.$message({
+              title: 'Success',
+              message: 'Salvo com sucesso!',
+              type: 'success'
+            })
+            this.handleCancel()
+          }
+        )
+      }
     },
     handleCancel () {
       this.$router.push('/list')
