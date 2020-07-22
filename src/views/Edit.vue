@@ -92,7 +92,7 @@ export default {
     handleSave () {
       const { id } = this.$route.params
       if (id) {
-        this.$db.collection('pessoas').doc(this.state.id).set({ ...this.state }).then(
+        this.$db.collection('pessoas').doc(this.state.id).update({ ...this.state }).then(
           () => {
             this.$message({
               title: 'Success',
