@@ -1,6 +1,24 @@
-# Crud de Pessoa
+# Crud de Pessoas
 
 ## Sistema de Crud de Pessoas
 
+### Funcionalidades
+
+- Listar Pessoas
+- Criar Pessoa
+- Editar Pessoa
+- Deletar Pessoa
+
+### Telas
+
+- /list
+- - Listar Pessoas
+- - Deletar pessoa
+
+- /edit
+- - Criar Pessoa
+- - Editar Pessoa
+- - Deletar Pessoa
+
 ### Deploy
-<a href="https://willvitorino.github.io/crud-pessoa/" target="_blank">Acesse aqui</a>
+Acesse [aqui](https://willvitorino.github.io/crud-pessoa/)
