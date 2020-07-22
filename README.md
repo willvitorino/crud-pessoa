@@ -3,4 +3,4 @@
 ## Sistema de Crud de Pessoas
 
 ### Deploy
-Acesse [aqui](https://willvitorino.github.io/crud-pessoa/).
+<a href="https://willvitorino.github.io/crud-pessoa/" target="_blank">Acesse aqui</a>
